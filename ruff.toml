@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 The whatifhw contributors
+# SPDX-License-Identifier: Apache-2.0
+# Lint and format settings, used by CI and by a local `ruff` run.
+
+line-length = 110
+target-version = "py310"
+
+[lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["E501"]  # the formatter keeps lines within line-length
